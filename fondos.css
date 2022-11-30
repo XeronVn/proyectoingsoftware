@@ -1,0 +1,166 @@
+body{
+	background: url('img/kai.gif');
+	background-repeat: no-repeat;
+	background-size:1900px;
+	background-attachment: fixed;
+
+}
+
+h1{
+	font-family: "Reenie Beanie", cursive;
+   font-size: 90px;
+   color: #020203;
+
+
+}
+
+
+h2{
+	font-family: 'Reenie Beanie', cursive;
+	color: #020203;
+	 font-size: 90px;
+}
+
+
+
+p {
+	color:  #D4AF37;
+	text-align: justify;
+}
+body{
+	font-family:"Reenie Beanie",cursive;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+	color:  #000004;
+
+
+}
+
+
+body{
+	background: ##BE8DFC;
+}
+
+.galeria{
+	width: 100%;
+
+}
+
+.galeria img {
+ vertical-align: top;
+ width: 400px;
+ margin: 20px;
+ padding: 5px;
+ opacity: 0.5;
+ border: 1px solid #484848;
+}
+
++{
+	margin: 0;
+	padding: 0;
+}
+
+.galeria img:hover{
+	border: ipx solid #fff;
+	opacity: 1;
+}
+
+.menu {
+	font-family: 'Reenie Beanie', cursive;
+	 font-size: 40px;
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+.menu li a:hover {
+	background: #ef8354;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+}
+
+
+.formulario{
+font-family:"Reenie Beanie",cursive; 
+padding: 0;
+margin: 0;
+-webkit-box-sizing:border-box ;
+-moz-boz-sizing:  border-box;
+box-sizing: border-box;
+
+}
+
+.formulario{
+font-family:"Reenie Beanie",cursive; 
+
+width: 400px;
+margin: 20px auto;
+padding: 20px;
+border-radius: 5px;
+}
+
+.formulario input{
+	display:  block;
+	font-family:"Reenie Beanie",cursive; 
+
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+	font-family:"Reenie Beanie",cursive; 
+	width: 100%;
+	padding:  20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 1px solid#226fc1;
+	font-family:"Reenie Beanie",cursive; 
+	font-size: 32px;
+}
+
+.formulario textarea{
+	font-family:"Reenie Beanie",cursive; 
+	min-height: 120px;
+	max-height: 300px;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus {
+border: 2px solid #4fb560;
+	}
+
+.formulario input[type="submit"]{
+	font-family:"Reenie Beanie",cursive; 
+	width: 200px;
+	margin: 0 auto;
+	background: none;
+	border: 1px solid  #0854bd;
+	color: #0854bd;
+	padding: 10px;
+	cursor:  pointer;
+	font-sizer: 32px;
+	border-radius: 3px;
+}
+
+.formularioinput[type="submit"]:hover{
+	background:  #0854bd;
+	font-family:"Reenie Beanie",cursive; 
+	color: #fff;
+}

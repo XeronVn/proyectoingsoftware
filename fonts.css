@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wch1kv');
+  src:  url('fonts/icomoon.eot?wch1kv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wch1kv') format('truetype'),
+    url('fonts/icomoon.woff?wch1kv') format('woff'),
+    url('fonts/icomoon.svg?wch1kv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitch:before {
+  content: "\ea9f";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+
+.social-bar{
+  position: fixed;
+  right: 0;
+  tap: 35%;
+  font-size: 1.5 rem;
+  display: flex;
+  flex-direction: colum;
+  align-items: flex-end;
+  z-index: 100;
+}
+
+.icon{
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+
+}
+
+.icon-facebook{
+ background: #2E406E;
+
+}
+
+.icon-instagram {
+  background: #339DC5;
+}
+
+.icon-twitch {
+  background: #E83028;
+}
+
+.icon-github {
+  background: ##171515;
+}
+
+.icon:first-child{
+  border-radius: 1ren 0 0 0;
+
+}
+
+.icon:last-child {
+  border-radius: 0 0 0 1 rem;
+}
+
+.icon:hover {
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+
+}
+
+
+
+
+
+background: url('img/Anime5.gif');
+background: url('img/Anime1.gif');
+--------------------------------------
+<section class="main">
+ 	<div class="imagen">
+ 	
+<img src="img/anime20.gif" width="200"/>
